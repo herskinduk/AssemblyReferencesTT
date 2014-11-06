@@ -15,7 +15,7 @@
       Build target for generating a T4 file with a list of assembly directives based on the projects references.
     </summary>
     <language>en-GB</language>
-    <projectUrl>https://nuget.org/packages/AssemblyReferencesTT</projectUrl>
+    <projectUrl>https://github.com/herskinduk/AssemblyReferencesTT</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
