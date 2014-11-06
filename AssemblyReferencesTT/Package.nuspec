@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AssemblyReferencesTT</id>
+    <version>1.0.12</version>
+    <title>AssemblyReferences.tt</title>
+    <authors>Kern Herskind Nightingale</authors>
+    <owners>Herskind Limited</owners>
+    <description>
+      Build target for generating a T4 file with a list of assembly directives based on the projects references. References with a hint path and solution references will be listed the AssemblyReferences.tt file. This file can then be included by other T4 files.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Build target for generating a T4 file with a list of assembly directives based on the projects references.
+    </summary>
+    <language>en-GB</language>
+    <projectUrl>https://nuget.org/packages/AssemblyReferencesTT</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <copyright>Copyright  2014</copyright>
+    <dependencies>
+    </dependencies>
+    <references></references>
+    <tags >t4 text template transformation toolkit assembly project reference references csproj tt hintpath hint path</tags>
+  </metadata>
+  <files>
+    <file src="build\" target="build" />
+    <file src="content\" target="content" />
+  </files>
+</package>
