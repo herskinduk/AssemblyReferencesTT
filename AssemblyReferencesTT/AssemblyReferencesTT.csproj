@@ -53,6 +53,7 @@
     <None Include="content\AssemblyReferences.tt">
       <LastGenOutput>AssemblyReferences.txt</LastGenOutput>
     </None>
+    <None Include="content\References.tt" />
     <None Include="NuGetPackage.ps1" />
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />

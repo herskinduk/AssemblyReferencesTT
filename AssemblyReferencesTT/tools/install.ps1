@@ -6,3 +6,6 @@ param($installPath, $toolsPath, $package, $project)
 # $toolsPath is the path to the tools directory in the folder where the package is installed.
 # $package is a reference to the package object.
 # $project is a reference to the project the package was installed to.
+
+$project.ProjectItems.Item("AssemblyReferences.tt").Properties.Item("CustomTool").Value = ""
+$project.ProjectItems.Item("References.tt").Properties.Item("CustomTool").Value = ""
