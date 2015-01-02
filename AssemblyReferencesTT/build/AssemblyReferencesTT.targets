@@ -19,7 +19,7 @@
 
 	<!-- Output all assembly references with a HintPath -->
     <WriteLinesToFile File="@(AssemblyReferencesTT)"
-      Lines="&lt;#@ assembly name=&quot;%28ProjectDir%29%(Reference.HintPath)&quot; #&gt;"
+      Lines="&lt;#@ assembly name=&quot;%24%28ProjectDir%29%(Reference.HintPath)&quot; #&gt;"
       Overwrite="false"
       Encoding="Unicode"
       Condition="'%(Reference.HintPath)' != ''" />
